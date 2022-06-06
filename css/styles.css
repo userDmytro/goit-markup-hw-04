@@ -129,6 +129,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
+.current{
+    color: var(--accent-color);
+}
 
 .contact{
     display: flex;
@@ -501,16 +504,20 @@ padding: 6px 22px;
  margin-top: -30px;
    margin-left: -30px;
 }
+.produkt-link{
+    color: inherit;
+}
+.product-list-item:hover,
+.product-list-item:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .product-list-item{
     width: 370px;
 margin-top: 30px;
 margin-left: 30px;
 flex-basis: calc((100% - 90px) / 3);
 }
-.product-list-item:hover,
-.product-list-item:focus{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 
 .card-content{
    padding: 24px 20px;
@@ -543,7 +550,7 @@ letter-spacing: 0.03em;
 }
 .footer-content{
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 .address-content{
     margin-right: 70px;
