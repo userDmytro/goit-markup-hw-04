@@ -178,6 +178,7 @@ letter-spacing: 0.02em;
 .owerlay{
     margin-left: auto;
     margin-right: auto;
+    background-size: cover;
         max-width: 1600px;
         background-color: #C4C4C4;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg.jpg);
@@ -383,16 +384,17 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 text-align: center;
 }
-.social-icons{
-    margin-top: 16px;
-}
+
+
 .social-icons-list{
-    padding-left: 32px;
-    padding-right: 32px;
-  display: flex;
-  justify-content: space-between;
-    align-items: center;
+    margin-top: 16px;
+    display: flex;
+  justify-content: center;
 }
+.list-unit:not(last-child){
+    margin-right: 10px;
+}
+    
 .border{
     display: flex;
     justify-content: center;
